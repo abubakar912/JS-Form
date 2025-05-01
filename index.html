@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Form</title>
+</head>
+<body>
+    <div class="main">
+        <div class="innerdiv">
+
+                <h2>Registration Form</h2>
+                <div class="first-last">
+                    <input type="text" name="first" placeholder="First Name" class="firstName" required>
+                    <input type="text" name="last" placeholder="Last Name" class="lastName" required>
+                </div>
+                <div class="email-pass">
+                    <input type="email" placeholder="Email" name="email" class="email" required>
+                    <input type="password" placeholder="Password" name="password" class="password" required>
+                </div>
+                <div class="radio">
+                    <div class="male">
+                        <input type="radio" name="gender" class="radio-btn" value="Male">
+                        <label for="gender">Male</label>
+                    </div>
+                    <div class="female">
+                        <input type="radio" name="gender" value="Female">
+                        <label for="gender">Female</label>
+                    </div>
+                </div>
+
+                <div class="add-button">
+                    <input type="text" placeholder="Address" name="address" class="address" required>
+                    <button type="button">Submit</button>
+                </div>
+        </div>
+
+        <div class="output">
+            <h2>Student Details</h2>
+            <div class="h3div">
+                <h4 id="firsth3"></h4>
+                <h4 id="lasth3"></h4>
+                <h4 id="emailh3"></h4>
+                <h4 id="passwordh3"></h4>
+                <h4 id="radioh3"></h4>
+                <h4 id="addressh3"></h4>
+                <button class="output-btn">Ok</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
