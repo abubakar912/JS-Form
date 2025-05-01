@@ -3,7 +3,6 @@
 let firsth3 = document.getElementById("firsth3");
 let lasth3 = document.getElementById("lasth3");
 let emailh3 = document.getElementById("emailh3");
-let passwordh3 = document.getElementById("passwordh3");
 let radioh3 = document.getElementById("radioh3");
 let addressh3 = document.getElementById("addressh3");
 let button = document.querySelector("button");
@@ -40,7 +39,6 @@ document.addEventListener("DOMContentLoaded", function () {
     firsth3.innerHTML = `✔️ The First Name of Student is : <strong>${firstName}</strong>`;
     lasth3.innerHTML = `✔️ The Last Name of Student is : <strong>${lastName}</strong>`;
     emailh3.innerHTML = `✔️ The E-mail Address of Student is : <strong>${email}</strong>`;
-    passwordh3.innerHTML = `✔️ The Account Password of Student is : <strong>${password}</strong>`;
     radioh3.innerHTML = `✔️ The Gender of Student is : <strong>${radio === 'Male' ? 'Male' : 'Female'}</strong>`;
     addressh3.innerHTML = `✔️ The Address of Student is : <strong>${address}</strong>`;
 
